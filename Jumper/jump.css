@@ -1,0 +1,53 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .flower-page {
+    text-align: center;
+  }
+  
+  .flowers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .flower-box {
+    width: 110px;
+    height: 110px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .flower-box:hover {
+    transform: scale(1.1);
+  }
+  /* Add this CSS to style the image */
+#Pi {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures proper alignment */
+    margin: 0 auto; /* Centers the image horizontally */
+  }
+  #loadingMessage {
+    display: none; /* Initially hide the loading message */
+    /* Add styling for the loading message, such as font-size, color, position, etc. */
+  }
+  
+  

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hmm??</title>
+  <link rel="stylesheet" href="jump.css">
+</head>
+<body>
+  <div class="container" id="namePage">
+    <h1>Hello, welcome! What is your name?</h1>
+    <input type="text" id="nameInput">
+    <button onclick="handleNameSubmit()">Submit</button>
+  </div>
+
+  <div class="flower-page" id="flowerPage" style="display: none;">
+    <h2 id="greeting"></h2>
+    <div class="flowers">
+      <div class="flower-box" onclick="selectFlower('roses')">Roses</div>
+      <div class="flower-box" onclick="selectFlower('sunflower')">Sunflower</div>
+    </div>
+   
+    <div id="message"></div>
+    <img id="Pi" src="" alt="" />
+  </div>
+
+  <script src="gather.js"></script>
+</body>
+</html>
+
